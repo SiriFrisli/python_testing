@@ -24,3 +24,10 @@ def add_milk_please(fat_content):
     """
     return "I've added the {}% milk".format(fat_content)
 
+def give_tip(tip_amount):
+    """
+    Take a tip from the user
+    :param tip_amount: the tip amount
+    :return: nothing
+    """
+    print("Thank you so much!")
